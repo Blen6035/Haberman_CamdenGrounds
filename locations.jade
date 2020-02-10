@@ -1,0 +1,12 @@
+#figure
+  img(src='images/headline-locations.jpg', alt='Image')
+div
+  a.locations(href='locations.html') Locations
+  div
+   for(idx in locations)
+    dl
+     dt locations[idx].name 
+     dd locations[idx].address
+     dd locations[idx].phone
+     dd locations[idx].hours 
+     img(src="https://maps.googleapis.com/maps/api/staticmap?center")

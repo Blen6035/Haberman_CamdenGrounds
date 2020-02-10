@@ -1,0 +1,15 @@
+#figure
+img(src="images/headline-menu.jpg" alt="Image")
+span Lorem ipsum dolor sit amet.
+div
+a.whatshot(href='menu.html') What's Hot
+div
+  ul
+  for(idx in public.coffees._data) 
+  li
+    a(href="/coffees/idx.html")
+      img(src="images/public.coffees._data[idx].name")
+    div
+      a(href="/coffees/idx.html", public.coffees._data[idx].name)
+      p public.coffees._data[idx].short &#36; public.coffees._data[idx].price
+  

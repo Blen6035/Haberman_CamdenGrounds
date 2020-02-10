@@ -1,0 +1,20 @@
+{
+	"coffee1":{
+		"name":"Coffee One",
+		"price":2.99,
+		"image":"coffee1.jpg",
+		"short":"Creamy"
+	},
+	"coffee2":{
+		"name":"Coffee Two",
+		"price":9.99,
+		"image":"coffee2.jpg",
+		"short":"Rich"
+	},
+	"coffee3":{
+		"name":"Coffee Three",
+		"price":1.99,
+		"image":"coffee3.jpg",
+		"short":"Sweet"
+    }
+}
